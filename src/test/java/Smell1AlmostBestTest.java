@@ -53,4 +53,13 @@ public class Smell1AlmostBestTest {
     void testToPowerMinPower() {
         assertEquals(1, Smell1AlmostBest.toPower(2, Integer.MIN_VALUE), "All powers are returning 1 for all the Minimum values.");
     }
+
+
+    @Test
+    void testToPowerCaching() {
+        assertEquals(8, Smell1AlmostBest.toPower(2, 3), "Power should return correct power value");
+        assertEquals(8, Smell1AlmostBest.toPower(2, 3), "Power should return same power to see caching value");
+    }
+
+
 }
