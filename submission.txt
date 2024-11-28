@@ -1,0 +1,18 @@
+Pratima Singh - psing161
+Sukanya Rani – srani6
+
+Commit for Part 1 a).
+
+Pratima- 9f8ba73bf6e11071118b87ab40fe0cd4889b2a01
+Sukanya- b38b8d730e8275153753501dd0c4d373831e87ff
+Final- b38b8d730e8275153753501dd0c4d373831e87ff
+
+Commit for Part 1 b).
+Pratima- 6539cd18f8fb66fd5ce97a007152fa9b1b2f7ce8
+Sukanya- ed4c8303ffc4e0e333aa2e4791c6010d48ccc884
+Final- ed4c8303ffc4e0e333aa2e4791c6010d48ccc884
+
+Commit for Part-2 d) -
+Pratima- 557b399717db546be27e7ab28f57e0e7ab1d76b0
+Sukanya- a4e1341ea3ede342dfcb352ffe1b160d5bb1dcc2
+Final - a4e1341ea3ede342dfcb352ffe1b160d5bb1dcc2
