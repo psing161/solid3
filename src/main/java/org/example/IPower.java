@@ -10,8 +10,9 @@ public interface IPower {
 class PowerSimple implements IPower {
 	@Override
 	public int toPower(int n, int pow) {
-		if (pow == 0)
-			return (1);
+		if (pow == 0){
+			return 1;
+		}
 		int res = 1;
 		for(int i = 0; i < pow; i++){
 			res *= n;
