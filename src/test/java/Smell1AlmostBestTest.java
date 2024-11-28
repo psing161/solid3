@@ -31,26 +31,26 @@ public class Smell1AlmostBestTest {
 
     @Test
     void testToPowerNegativePowZero() {
-        Assertions.assertEquals(1, Smell1AlmostBest.toPower(0, -2), "All negative powers are returning 0");
+        assertEquals(1, Smell1AlmostBest.toPower(0, -2), "All negative powers are returning 0");
     }
 
     @Test
     void testToPowerMaxBase() {
-        Assertions.assertEquals(1, Smell1AlmostBest.toPower(Integer.MAX_VALUE, 2), "All powers are returning 1 for all the Maximum values.");
+        assertEquals(1, Smell1AlmostBest.toPower(Integer.MAX_VALUE, 2), "All powers are returning 1 for all the Maximum values.");
     }
 
     @Test
     void testToPowerMaxPower() {
-        Assertions.assertEquals(0, Smell1AlmostBest.toPower(2, Integer.MAX_VALUE), "All powers are returning 0 for all the Maximum values.");
+        assertEquals(0, Smell1AlmostBest.toPower(2, Integer.MAX_VALUE), "All powers are returning 0 for all the Maximum values.");
     }
 
     @Test
     void testToPowerMinBase() {
-        Assertions.assertEquals(0, Smell1AlmostBest.toPower(Integer.MIN_VALUE, 2), "All powers are returning 0 for all the Minimum values.");
+        assertEquals(0, Smell1AlmostBest.toPower(Integer.MIN_VALUE, 2), "All powers are returning 0 for all the Minimum values.");
     }
 
     @Test
     void testToPowerMinPower() {
-        Assertions.assertEquals(1, Smell1AlmostBest.toPower(2, Integer.MIN_VALUE), "All powers are returning 1 for all the Minimum values.");
+        assertEquals(1, Smell1AlmostBest.toPower(2, Integer.MIN_VALUE), "All powers are returning 1 for all the Minimum values.");
     }
 }
